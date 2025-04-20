@@ -1,0 +1,5 @@
+TELEGRAM_BOT_TOKEN=your_token_here
+TELEGRAM_CHAT_ID=your_chat_id_here
+BITGET_API_KEY=your_api_key
+BITGET_API_SECRET=your_api_secret
+BITGET_PASSPHRASE=your_passphrase
