@@ -1,4 +1,22 @@
-	•	main.py
-	•	bitget_utils.py
-	•	requirements.txt
-	•	.env.example
+	from bitget_utils import run_bot
+
+if __name__ == "__main__":
+    run_bot()
+import os
+import time
+
+def run_bot():
+    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    chat_id = os.getenv("TELEGRAM_CHAT_ID")
+    print(f"Bot is running. Sending alerts to chat ID {chat_id}")
+    while True:
+        # לוגיקה של איתותים תיכנס כאן
+        print("Scanning market for setups...")
+        time.sleep(1800)
+python-dotenv
+requests
+TELEGRAM_BOT_TOKEN=your_token_here
+TELEGRAM_CHAT_ID=your_chat_id_here
+BITGET_API_KEY=your_api_key
+BITGET_API_SECRET=your_api_secret
+BITGET_PASSPHRASE=your_passphrase
